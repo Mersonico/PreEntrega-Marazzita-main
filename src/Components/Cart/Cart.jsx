@@ -65,7 +65,7 @@ const Cart = () => {
             })}
           </div>
           <div className="cart-info">
-            <h3>Precio total: {getTotalPrice()}</h3>
+            <h3>Precio total: $ {getTotalPrice()}</h3>
             
             {cart.length > 0 && (
               <div className="btn-cart">
