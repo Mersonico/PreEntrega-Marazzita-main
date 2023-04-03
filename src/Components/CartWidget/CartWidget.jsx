@@ -22,7 +22,7 @@ const CartWidget = () => {
           }}
         />
         <div className="bubble-counter">
-          <span>0</span>
+          <span>{total}</span>
         </div>
       </div>
     </Link>

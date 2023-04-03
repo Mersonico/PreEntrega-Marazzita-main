@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    border-right: 2px solid #7F669D;
+    border-right: 2px solid #0c0c0c;
     padding: 0 40px;
 }
 
@@ -24,17 +24,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    color: #7F669D;
+    color: #07010e;
 }
 .btn-cart{
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
 }
 
 .btn-cart > button {
-    width: 200px;
+    width: 100px;
 }
 
 .cart-item{
@@ -44,7 +44,7 @@
     height: 100px;
     align-items: center;
     /* border: 1px solid #7F669D; */
-    box-shadow: 0px 2px 5px 0px #7F669D;
+    box-shadow: 0px 2px 5px 0px #07010e;
     border-radius: 10px;
     padding: 0 10px;
 
